@@ -21,7 +21,7 @@ A single page react app with slider and sticky header
 
 ## Links
 
-- Live Site URL:
+- Live Site URL: [https://react-technical-assessment-hjp.netlify.app](https://react-technical-assessment-hjp.netlify.app)
 
 ## Tests and browser compatibility
 
