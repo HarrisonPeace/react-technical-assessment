@@ -400,6 +400,16 @@ header a:not(:last-child) {
   }
 }
 
+.splide {
+  height: 400px;
+}
+
+@media (min-width: 768px) {
+  .splide {
+    height: 500px;
+  }
+}
+
 .splide__pagination__page {
   background: #c1e7ff;
 }
