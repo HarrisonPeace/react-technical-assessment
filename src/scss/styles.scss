@@ -1,0 +1,8 @@
+/* Scss Document */
+
+// =========================================================
+// scss to css import folder
+// =========================================================
+
+@import "normalize", "../../node_modules/@splidejs/splide/dist/css/splide-core.min.css",
+  "../../node_modules/@splidejs/splide/dist/css/themes/splide-default.min.css", "base", "header", "slider", "main";

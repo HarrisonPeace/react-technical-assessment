@@ -1,0 +1,24 @@
+header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: -1px;
+  z-index: 100;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #004c6de0;
+  a {
+    color: #c1e7ff;
+    font-size: 1em;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  a:not(:last-child) {
+    margin-right: 18px;
+    @include mq("tablet") {
+      margin-right: 60px;
+    }
+  }
+}
+

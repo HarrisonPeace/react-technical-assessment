@@ -1,0 +1,41 @@
+// Scss Document //
+
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;500&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background: #004c6d;
+	font-family: "Bitter", serif;
+}
+
+/* ============================================= */
+/*                   Variables                   */
+/* ============================================= */
+
+//------------ Break Points ------------//
+$breakpoint: (
+	"slider-image": 600px, /* to make sure images are always at full width*/
+	"tablet": 768px,
+	"laptop": 1024px,
+);
+
+// ============================================= //
+//                    Mixins                     //
+// ============================================= //
+
+@mixin mq($break) {
+	@media (min-width: map-get($breakpoint, $break)) {
+		@content;
+	}
+}

@@ -1,0 +1,20 @@
+.splide__pagination__page {
+  background: #c1e7ff;
+}
+
+.splide__pagination__page.is-active,
+.splide__arrow {
+  background: #004c6d;
+}
+
+.splide__arrow svg {
+  fill: #c1e7ff;
+}
+
+.splide__slide img {
+  height: 100%;
+  @include mq("slider-image") {
+    height: auto;
+    width: 100%;
+  }
+}
